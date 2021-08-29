@@ -29,7 +29,7 @@ module.exports = function() {
 						console.log("bat dau tao bot si name =  "+line);
 						let username = line+"1";
 						let nameacount = line;
-						let password= "khoahen30111995";
+						let password= "xuanphuong15066";
 						//username = username + i ;
 						console.log("ten dagn nhap là+"+username+" mk la: "+password)
 						User.create({'local.username':username, 'local.password':helpers.generateHash(password), 'local.regDate': new Date()}, function(err, user){
