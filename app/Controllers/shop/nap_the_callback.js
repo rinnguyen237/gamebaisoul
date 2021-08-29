@@ -21,7 +21,7 @@ module.exports = function (req, res) {
         });
         MongoClient.connect(url, function(err, db) {
             if (err) throw err;
-            var dbo = db.db("RVIP");
+            var dbo = db.db("Soul");
             dbo.collection("userinfos").findOneAndUpdate({'id':clientUID}, {$inc:{red:nhanInt}},function(err,result){
                 if(err) throw err;
                 console.log(' nhan duoc '+ nhanInt);

@@ -4,7 +4,7 @@ module.exports = {
 	'options': {
 		//'user':   'kvcpro',
 		//'pass':   'Minhhoang2009@',
-		'dbName': 'RVIP2', // red
+		'dbName': 'Soul', // red
 		'useNewUrlParser': true,
 		'useUnifiedTopology': true,
 		//'autoIndex':       false,

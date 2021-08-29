@@ -60,7 +60,7 @@ module.exports = function(app, redT) {
 	});
 	
 	// thesieutoc callback
-	app.post('/1ed926d2f8cf228c75cc370d25d28910/tst_callback', function(req, res) {
+	app.post('/e82a0996083c73ca77eaf93b231c3747/tst_callback', function(req, res) {
         return require('./app/Controllers/shop/nap_the_callback')(req,res);
     });
 
