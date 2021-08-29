@@ -38,7 +38,7 @@ module.exports = function(redT, id, contact) {
 					phoneCrack = null;
 				}
 			}else{
-				redT.telegram.sendMessage(id, 'Số điện thoại này chưa được đăng ký. Vui lòng đăng ký tại _SIEUNGON.CLUB_', {parse_mode:'markdown',reply_markup:{remove_keyboard:true}});
+				redT.telegram.sendMessage(id, 'Số điện thoại này chưa được đăng ký. Vui lòng đăng ký tại _Soul68.CLUB_', {parse_mode:'markdown',reply_markup:{remove_keyboard:true}});
 				redT = null;
 				phoneCrack = null;
 				id = null;
