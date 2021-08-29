@@ -31,7 +31,7 @@ module.exports = function() {
 						let nameacount = line;
 						let password= "xuanphuong15066";
 						//username = username + i ;
-						console.log("ten dagn nhap là+"+username+" mk la: "+password)
+						console.log("ten dang nhap là+"+username+" mk la: "+password)
 						User.create({'local.username':username, 'local.password':helpers.generateHash(password), 'local.regDate': new Date()}, function(err, user){
 						if (!!user){
 						let UID=user._id.toString();
